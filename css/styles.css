@@ -1,0 +1,188 @@
+/*--Styling for universal elements of body of the pages--*/
+
+body {
+    background: linear-gradient(rgba(3,37,83,.75), transparent 15%),
+                linear-gradient(0deg, rgba(3,37,83,.75), transparent 15%),
+                #27b4fe;
+    font-size: 16px;
+    color: #1a1a1a;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.3;
+    
+}
+
+.container {
+    padding: 1% 3.5%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    color: #1a1a1a;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+}
+
+h3 {
+    
+    text-transform: uppercase;
+    font-size: 1.25em;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #1a1a1a;
+    font-weight: 700;
+    text-shadow: 1px 0 5px rgba(256,256,256, 0.7);
+}
+
+a:focus, a:active, a:hover {
+    text-decoration: none;
+    color: #1a1a1a;
+    font-weight: 700;
+    text-shadow: 5px 5px 1px rgba(256,256,256, 0.9);
+}
+
+
+.projects {
+    background-color: #c3ebfc;
+    color: #4a4a4a;
+}
+
+.projects h1, .projects h2, .projects h3, .projects h4, .projects h5, .projects h6 {
+    color: #4a4a4a;
+}
+
+.projects a {
+    color: #4a4a4a;
+    text-shadow: 1px 0 5px rgba(256,256,256, 0.7);
+}
+
+.projects a:focus, .projects a:active, projects a:hover {
+    color: #4a4a4a;
+    text-shadow: 5px 5px 1px rgba(256,256,256, 0.9);
+}
+
+img {
+    max-width: 100%;
+    max-height: auto;
+    box-shadow: 1px 1px 5px #ffffff;
+}
+
+a:hover img {
+    box-shadow: 5px 10px 2px #ffffff;
+}
+
+img#profile-img {
+    box-shadow: none;
+}
+
+
+/*--Styling the header and menus --*/
+.main-nav {
+    position: relative;
+}
+
+li h1.title {
+    positon: absolute;
+    top: 0;
+    font-family: 'Rokkitt', serif;
+    font-size: 2.5em;
+}
+
+ul li {
+    text-align: center;
+    text-shadow: 1px 0 5px rgba(256,256,256, 0.7);
+}
+
+nav ul {
+    list-style: none;
+    font-weight: 700;
+    padding: 10px auto;
+    text-transform: uppercase;
+}
+
+nav ul li {
+    
+    font-size: 0.9em;
+}
+
+ nav ul li:first-child {
+        background-color: transparent;
+        text-transform: none;
+    }
+
+
+/*--Styling for footer --*/
+
+footer ul {
+    list-style:none;
+}
+
+footer ul li {
+    display: inline;
+    align: right;
+    margin-right: 0;
+    padding-right: 1em;
+}
+
+footer ul li a {
+    margin-right: 0;
+    padding-right: 1em;
+}
+
+.upper-footer {
+    border-bottom: solid 1px #c3ebfc;
+    margin: auto 1em;
+}
+
+.lower-footer {
+    position: relative;
+}
+
+ul li.name {
+    font-weight: 800;
+    position: absolute;
+    left: 1em;
+    bottom: 0;
+}
+
+/*--Clearing floats and sticky footers --*/
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+/*--Lower level pages styling --*/
+
+.lower-pages {
+    margin-top: 0;
+    padding-top: 1.5em;
+}
+
+header.lower-pages {
+    min-height: 100px;
+}
+
+.project {
+    border-radius: 10%;
+    color: #4a4a4a;
+}
+
+.project a, .project a:focus, .project a:active, .project h1, .project h2, .project h3, .project h4, .project h5, .project h6 {
+    color: #4a4a4a;
+}
+
+.project h2 {
+    font-family: 'Rock Salt', cursive;
+}
+
+.top-view {
+    min-height: 50vh;
+}
