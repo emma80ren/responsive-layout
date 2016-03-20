@@ -61,7 +61,7 @@
       float: left;
       display: inline-block;
       width: 30%;
-      min-height: 400px;
+      min-height: 425px;
       padding-left: 1.65%;
       padding-right: 1.65%;
       
@@ -69,6 +69,26 @@
     
     .project {
     background: #c3ebfc url('img/spider.png') center left no-repeat;
+    }
+    
+    .gallery-center {
+        display: block;
+        margin-left:6%;
+        margin-right: auto;
+    }
+
+    
+    img.gallery-img {
+        max-width: 27%;
+        max-height: auto;
+        margin: 2%;
+        float: left;
+    }
+    
+    img.gallery-img:nth-child(3n + 4) {
+        content:"";
+        display: table;
+        clear: left;
     }
     
     
@@ -165,12 +185,40 @@
         max-height: auto;
 
     }
+    
+    .gallery-center {
+        display: block;
+        margin-left:4%;
+        margin-right: auto;
+    }
+
+    
+    img.gallery-img {
+        max-width: 45%;
+        max-height: auto;
+        margin: 2%;
+        float: left;
+    }
+    
+    img.gallery-img:nth-child(2n + 1) {
+        content:"";
+        display: table;
+        clear: left;
+    }
+    
+   img.gal,ery-img:last-child {
+        content: "";
+        display: table;
+        clear: left;
+        margin-left: auto;
+        margin-right: auto;
+    }
  
 .marketing, .calculator, .map, .search, .gallery, .travel {
       float: left;
       display: inline-block;
       width: 47.5%;
-      min-height: 375px;
+      min-height: 400px;
       padding-left: 1.25%;
       padding-right: 1.25%;
       
@@ -234,6 +282,10 @@
     
     img {
         margin: 1.5em auto;
+    }
+    
+    .projects {
+        border-bottom: #4a4a4a solid 1px;
     }
     
     footer {

@@ -47,7 +47,7 @@ a:focus, a:active, a:hover {
 }
 
 
-.projects {
+.projects, #gallery {
     background-color: #c3ebfc;
     color: #4a4a4a;
 }
@@ -78,6 +78,14 @@ a:hover img {
 
 img#profile-img {
     box-shadow: none;
+}
+
+img.gallery-img {
+    display: inline-block;
+    max-width: 85%;
+    max-height: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
