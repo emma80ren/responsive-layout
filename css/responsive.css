@@ -129,15 +129,29 @@
         margin: 10px auto;
         padding: 2em 1em;
     }
+    
+    .title {
+        width: auto;
+        left: 0;
+        right: auto;
+    }
+    
     li h1.title {
         position: absolute;
+        text-align: left;
         left: 0;
-        top: -1em;
+        top: 0;
         
     }
     
+    .title {
+        width: auto;
+        left: 0;
+        right: auto;
+    }
+    
     nav {
-        display: inline-block;
+        display: block;
         width: 100%;
         padding-top: 1em;
         text-align: right;
@@ -151,6 +165,12 @@
         margin: 5px auto;
         padding: 0.5em 1.5em;
         text-align: right;
+    }
+    
+    nav ul li:first-child {
+        text-align: left;
+        margin-left: 0;
+        margin-right: auto;
     }
     
     
